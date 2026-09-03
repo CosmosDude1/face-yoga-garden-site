@@ -14,7 +14,7 @@ em.note{color:#6b645a;font-size:14px}
 a{color:#527a54}
 </style></head><body><main>
 <h1>Privacy Policy — Face Yoga Garden</h1>
-<p><b>Last updated:</b> 9 August 2026 <b>Effective date:</b> 9 August 2026</p>
+<p><b>Last updated:</b> 3 September 2026 <b>Effective date:</b> 3 September 2026</p>
 <blockquote>This is an English translation of the Turkish original. If the documents differ, the Turkish version of the documents prevails.</blockquote>
 <h2>1. Data controller and contact</h2>
 <ul>
@@ -35,7 +35,7 @@ a{color:#527a54}
 <h3>3.2 Guest use</h3>
 <p>The core guest experience is local: garden progress and safety responses remain on the device. If you start optional photo analysis, we create a pseudonymous technical guest profile in Supabase only to manage the analysis allowance, purchase and abuse limit. It contains no name or email, does not back up your progress, and can be deleted in Settings.</p>
 <h3>3.3 Apple account and sync</h3>
-<p>If you use Sign in with Apple, we create an account using the stable user identifier Apple provides to the App. We support Apple's private-email choice. When you choose sync, progress, mood entries, personal roadmap, collections, and companion preferences are backed up in Supabase. Safety questions and contraindication responses are not synced and remain on the device.</p>
+<p>If you use Sign in with Apple, we create an account using the stable user identifier Apple provides and either your real or private relay email, depending on your choice. We do not request your full name. When you choose sync, progress, mood entries, personal roadmap, collections, and companion preferences are backed up in Supabase. Safety questions and contraindication responses are not synced and remain on the device.</p>
 <h3>3.4 Optional photo analysis</h3>
 <p>Personal photo analysis can be started by a guest or a user signed in with Apple. With your explicit consent, one selected selfie is sent once to Google Gemini API to create a personal practice plan. While it is prepared, the result stays only in app memory; if Premium is not purchased, it is not shown or retained. We do not store or sync the photo on our own servers, and it is not used for identification or biometric verification. The App works fully without this feature.</p>
 <p>Photo-journal images remain only in the local database on your device and are never uploaded.</p>
@@ -46,6 +46,7 @@ a{color:#527a54}
 <tr><td>On-device camera data</td><td>Movement feedback</td><td>Explicit consent / performance of service</td></tr>
 <tr><td>Local progress</td><td>Running the garden and ritual experience</td><td>Performance of service</td></tr>
 <tr><td>Progress synced with an Apple account</td><td>Backup and cross-device sync</td><td>Performance of service / explicit choice</td></tr>
+<tr><td>Apple user identifier and real/private relay email</td><td>Account creation, session, and support</td><td>Performance of service</td></tr>
 <tr><td>Safety responses (device only)</td><td>Closing unsuitable movements or reducing dose</td><td>Explicit consent</td></tr>
 <tr><td>One-off analysis photo</td><td>Creating a personal practice plan</td><td>Explicit consent</td></tr>
 <tr><td>Technical-guest or Apple user identifier and analysis timestamp</td><td>Managing the analysis allowance and preventing abuse</td><td>Performance of service / legitimate interest</td></tr>
@@ -60,7 +61,8 @@ a{color:#527a54}
 <h2>6. Retention and deletion</h2>
 <ul>
 <li>Local data remains on your device until you reset it in the App or uninstall the App.</li>
-<li>Synced account data remains while the account is active. The <b>Delete account</b> action in Settings deletes the account, synced progress, analysis counters, and the device photo journal. For a technical guest profile, <b>Withdraw AI processing consent and delete my guest data</b> deletes that profile, its analysis counter, and device data, and stops future photo analysis. We do not retain a copy of a photo previously sent once to Gemini on our servers, so there is no copy for us to recall.</li>
+<li><b>Sign out</b> clears the local garden, safety answers, face calibration, and photo journal so the next person using the device cannot access them; the cloud backup associated with your account is not deleted.</li>
+<li>Synced account data remains while the account is active. The <b>Delete account</b> action in Settings deletes the account, synced progress, analysis counters, the account-linked Adapty profile, and the device photo journal. For Sign in with Apple accounts, the App asks you to verify with Apple's secure sheet immediately before deletion and revokes the authorization granted to the App. For a technical guest profile, <b>Withdraw AI processing consent and delete my guest data</b> deletes that profile, its analysis counter, its Adapty profile, and device data, and stops future photo analysis. We do not retain a copy of a photo previously sent once to Gemini on our servers, so there is no copy for us to recall.</li>
 <li>Deleting an account does not automatically cancel a subscription; you can manage or cancel it separately in App Store or Google Play settings.</li>
 </ul>
 <h2>7. Your rights</h2>
