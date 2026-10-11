@@ -1,6 +1,10 @@
-<!doctype html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Gizlilik Politikası — Face Yoga Garden</title><style>
+<!doctype html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Gizlilik Politikası — Face Yoga Garden"><link rel="icon" type="image/png" href="../assets/apple-touch-icon.png"><link rel="apple-touch-icon" href="../assets/apple-touch-icon.png"><title>Gizlilik Politikası — Face Yoga Garden</title><style>
 body{margin:0;background:#fbf7f0;color:#3a352f;font:16px/1.65 Georgia,'Times New Roman',serif}
-main{max-width:720px;margin:0 auto;padding:48px 22px 80px}
+nav{max-width:720px;margin:0 auto;padding:22px 22px 0;display:flex;gap:16px;flex-wrap:wrap;font:600 14px/1.4 system-ui,sans-serif}
+nav a{text-decoration:none}
+nav .brand{display:flex;align-items:center;margin-right:4px}
+nav .brand img{display:block;border-radius:8px}
+main{max-width:720px;margin:0 auto;padding:32px 22px 80px}
 h1{font-size:30px;color:#4a5a40;line-height:1.25}
 h2{font-size:21px;color:#4a5a40;margin-top:36px;border-bottom:1px solid rgba(110,155,110,.25);padding-bottom:6px}
 h3{font-size:17px;color:#527a54;margin-top:24px}
@@ -12,9 +16,11 @@ li{margin:6px 0}
 hr{border:0;border-top:1px solid rgba(110,155,110,.3);margin:32px 0}
 em.note{color:#6b645a;font-size:14px}
 a{color:#527a54}
-</style></head><body><main>
+a:focus-visible{outline:3px solid #d57d54;outline-offset:3px;border-radius:4px}
+@media(max-width:640px){main{padding-top:24px}h1{font-size:26px}table{display:block;overflow-x:auto}}
+</style></head><body><nav aria-label="Yasal sayfalar"><a class="brand" href="../"><img src="../assets/logo.png" alt="Face Yoga Garden" width="36" height="36"></a><a href="../">Ana sayfa</a><a href="./gizlilik-politikasi.html">Gizlilik</a><a href="./kullanim-sartlari.html">Kullanım şartları</a><a href="./en/privacy-policy.html" lang="en">English</a></nav><main>
 <h1>Gizlilik Politikası — Face Yoga Garden</h1>
-<p><b>Son güncelleme:</b> 3 Eylül 2026 <b>Yürürlük tarihi:</b> 3 Eylül 2026</p>
+<p><b>Son güncelleme:</b> 11 Ekim 2026 <b>Yürürlük tarihi:</b> 11 Ekim 2026</p>
 <h2>1. Veri sorumlusu ve iletişim</h2>
 <ul>
 <li><b>Uygulama:</b> Face Yoga Garden</li>
@@ -27,6 +33,7 @@ a{color:#527a54}
 <li>Bahçe, seans, seri, yoldaş ve güvenlik verilerin varsayılan olarak yalnız cihazında tutulur.</li>
 <li>Hesap isteğe bağlıdır ve yalnız iPhone'daki <b>Apple ile Giriş</b> ile açılır. E-posta/şifre ile kayıt veya giriş sunmayız.</li>
 <li>Reklam, reklam takibi ve veri satışı yoktur.</li>
+<li>Uygulamayı geliştirmek için adsız kullanım istatistikleri toplanır; Ayarlar'dan kapatabilirsin.</li>
 </ul>
 <h2>3. İşlediğimiz veriler</h2>
 <h3>3.1 Kamera ve yüz hareketi</h3>
@@ -36,10 +43,14 @@ a{color:#527a54}
 <h3>3.3 Apple hesabı ve eşitleme</h3>
 <p>Apple ile Giriş kullanırsan Apple'ın uygulamaya sağladığı kalıcı kullanıcı kimliği ve seçimine göre gerçek ya da gizlenmiş e-posta adresiyle bir hesap oluşturulur. Tam adını istemeyiz. Hesapla eşitlemeyi seçtiğinde ilerleme, ruh hâli kayıtları, kişisel yol haritası, koleksiyonlar ve yoldaş tercihleri Supabase üzerinde yedeklenir. Güvenlik/kontrendikasyon yanıtları eşitlenmez; yalnız cihazında kalır.</p>
 <h3>3.4 İsteğe bağlı fotoğraf analizi</h3>
-<p>Fotoğrafla kişisel analiz misafir veya Apple ile giriş yapmış kullanıcılar tarafından isteğe bağlı olarak başlatılabilir. Seçtiğin tek selfie, yalnız açık onayınla kişisel pratik planı üretmek için Google Gemini API'ye tek seferlik gönderilir. Analiz hazırlanırken sonuç cihaz belleğinde tutulur; premium satın alınmazsa sonuç gösterilmez ve kalıcı olarak saklanmaz. Fotoğrafı kendi sunucularımızda saklamaz veya eşitlemeyiz; fotoğraf kimlik tanıma ya da biyometrik doğrulama için kullanılmaz. Fotoğraf gönderilmeden önce onay ekranında bunu açıkça bildiririz. Bu özellik kullanılmadan uygulamanın tamamı çalışır.</p>
+<p>Fotoğrafla kişisel analiz bir Premium özelliğidir. Yalnız açık onayından ve fotoğraftaki kişinin sen olduğunu ve 18 yaşından büyük olduğunu onaylamandan sonra seçtiğin tek selfie, kişisel pratik planı üretmek için Google Gemini API'ye tek seferlik gönderilir; daha önce bir analiz yaptıysan, sonuçların tutarlı kalması için önceki analizinin dört bölge puanı (yalnız sayılar; fotoğraf ve gözlem metni değil) aynı istekle gönderilir. Model yalnız sabit ve gözden geçirilmiş bir katalogdan odak bölgesi ve not seçer; yaş, cinsiyet, etnik köken, çekicilik, sağlık veya başka bir kişisel özelliği tahmin etmemesi talimatlıdır. Fotoğrafta tek ve net bir yüz bulunmazsa analiz oluşturulmaz ve analiz hakkın kullanılmış sayılmaz. Fotoğrafı kendi sunucularımızda saklamaz veya eşitlemeyiz; fotoğraf kimlik tanıma ya da biyometrik doğrulama için kullanılmaz. Fotoğraf gönderilmeden önce onay ekranında bunu açıkça bildiririz. Bu özellik kullanılmadan uygulamanın tamamı çalışır.</p>
 <p>Foto günlükleri ise yalnız cihazındaki yerel veritabanında tutulur ve hiçbir yere yüklenmez.</p>
 <h3>3.5 Teknik kayıtlar</h3>
 <p>Fotoğraf analizi için kötüye kullanımı önlemek amacıyla teknik misafir veya Apple hesabı kullanıcı kimliği ve çağrı zaman damgası tutulur; fotoğraf içeriği tutulmaz. Cihazdaki hata günlüğü yalnız sen destek e-postasına eklemeyi seçersen bize ulaşır.</p>
+<h3>3.6 Adsız kullanım istatistikleri</h3>
+<p>Hangi adımların kullanıldığını anlamak için uygulama sınırlı bir olay listesi gönderir: onboarding adımı, bildirim izni sonucu, premium ekranının görüntülenmesi ve satın alma adımı (plan, deneme olup olmadığı), ritüelin başlaması/tamamlanması (tür ve süre), bahçe bakımı, uygulamanın açılması, plan raporunun görüntülenmesi ve bu rapordan ritüele geçiş. Son iki olay hiçbir ek özellik içermez. Olaylarla birlikte uygulama sürümü, arayüz dili, platform ve kurulum başına rastgele üretilen bir kimlik gider. Ad, e-posta, Apple/hesap kimliği, yoldaş adı, fotoğraf, analiz sonucu, güvenlik yanıtı, kamera veya yüz verisi gönderilmez; kişi profili oluşturulmaz ve IP adresinden konum çıkarılmaz. Bu istatistikleri <b>Ayarlar → Hesap ve abonelik → Veri → Anonim kullanım istatistikleri</b> ile kapatabilirsin; kapatınca rastgele kimlik de cihazdan silinir.</p>
+<h3>3.7 Yasal ve destek sitesi</h3>
+<p>Bu statik yasal ve destek sitesi form, kullanıcı hesabı, reklam çerezi veya bize ait analiz aracı kullanmaz. Siteyi sunan barındırma altyapısı, sayfayı teslim etmek ve kötüye kullanımı önlemek için IP adresi, tarayıcı bilgisi ve istek zamanı gibi standart bağlantı kayıtlarını teknik olarak işleyebilir.</p>
 <h2>4. Amaçlar ve dayanaklar</h2>
 <table><thead><tr><th>Veri</th><th>Amaç</th><th>Dayanak</th></tr></thead><tbody>
 <tr><td>Cihazdaki kamera verisi</td><td>Hareket geri bildirimi</td><td>Açık rıza / hizmetin ifası</td></tr>
@@ -49,17 +60,22 @@ a{color:#527a54}
 <tr><td>Güvenlik yanıtları (yalnız cihazda)</td><td>Sakıncalı hareketleri kapatmak veya dozu azaltmak</td><td>Açık rıza</td></tr>
 <tr><td>Tek seferlik analiz fotoğrafı</td><td>Kişisel pratik planı üretmek</td><td>Açık rıza</td></tr>
 <tr><td>Teknik misafir/Apple kullanıcı kimliği ve analiz zaman damgası</td><td>Analiz hakkını yönetmek ve kötüye kullanımı önleme</td><td>Hizmetin ifası / meşru menfaat</td></tr>
+<tr><td>Adsız kullanım istatistikleri ve rastgele kurulum kimliği</td><td>Uygulamanın hangi adımlarda zorlandığını anlamak ve geliştirmek</td><td>Meşru menfaat (Ayarlar'dan kapatılabilir)</td></tr>
+<tr><td>Yasal/destek sitesi bağlantı kayıtları</td><td>Sayfayı güvenli biçimde sunmak ve kötüye kullanımı önlemek</td><td>Meşru menfaat</td></tr>
 </tbody></table>
 <h2>5. Aktarım ve hizmet sağlayıcılar</h2>
 <ul>
-<li>Supabase, Apple hesabı eşitlemesi ile teknik misafir profili/analiz hakkı için veri işleyen altyapı sağlayıcımızdır; barındırma bölgesi AB, Frankfurt'tur.</li>
-<li>Google Gemini API, yalnız açık onay verdiğin fotoğraf analizi için kullanılır. Bu aktarım yurt dışına veri aktarımı niteliğindedir.</li>
+<li>Supabase, Apple hesabı eşitlemesi ile teknik misafir profili/analiz hakkı için veri işleyen altyapı sağlayıcımızdır; barındırma bölgesi Seul, Güney Kore'dir (Asya-Pasifik). Bu aktarım yurt dışına veri aktarımı niteliğindedir.</li>
+<li>Google Gemini API, yalnız açık onay verdiğin fotoğraf analizi için kullanılır. Bu aktarım yurt dışına veri aktarımı niteliğindedir. Gemini'yi Google'ın ücretli hizmet koşullarıyla kullanırız: Google fotoğrafı ürünlerini eğitmek veya geliştirmek için kullanmaz; istek verilerini yalnız kötüye kullanımı izleme ve yasal yükümlülükler için sınırlı bir süre tutar.</li>
 <li>Adapty yalnız abonelik durumunu ve hesapla eşleştirilebilmesi için kullanıcı kimliğini işler. Ad, fotoğraf, kamera verisi veya reklam kimliği gönderilmez.</li>
+<li>PostHog, adsız kullanım istatistiklerini işleyen analitik sağlayıcımızdır; veriler Avrupa Birliği (Frankfurt, Almanya) bölgesinde barındırılır. Bu aktarım yurt dışına veri aktarımı niteliğindedir.</li>
+<li>ChatGPT Sites barındırma altyapısı, bu statik yasal ve destek sayfalarını sunar. Bu sayfalarda bize ait analitik veya reklam takibi bulunmaz.</li>
 <li>Ödeme kartı bilgilerini görmez veya saklamayız; ödemeler App Store ya da Google Play tarafından işlenir.</li>
 </ul>
 <h2>6. Saklama ve silme</h2>
 <ul>
 <li>Cihazdaki veriler, uygulamadan sıfırlayana veya uygulamayı kaldırana kadar cihazında kalır.</li>
+<li>Adsız kullanım istatistikleri en fazla 12 ay tutulur. Rastgele kimlik hesabına bağlanmadığı için bu olaylar hesap silmede sana göre ayıklanamaz; cihaz verisini sıfırlamak veya istatistikleri kapatmak yeni olayların eski kimlikle birleşmesini durdurur.</li>
 <li>Apple hesabından <b>Çıkış yap</b> eylemi, aynı cihazdaki sonraki kullanıcının verilerine erişememesi için yerel bahçeyi, güvenlik yanıtlarını, yüz kalibrasyonunu ve foto günlüğünü temizler; hesaptaki bulut yedeği silinmez.</li>
 <li>Hesaba bağlı eşitlenmiş veriler hesap aktif olduğu sürece tutulur. Ayarlar'daki <b>Hesabı sil</b> eylemi hesabı, eşitlenmiş ilerlemeyi, analiz sayaçlarını, Adapty'deki hesapla ilişkili profili ve cihazdaki foto günlüğünü hemen siler. Apple ile Giriş bağlantısını da kaldırmak isteyen kullanıcıya silme onayında <b>iPhone Ayarları → adın → Apple ile Giriş → Face Yoga Garden → Sil</b> yolu ve Apple'ın resmi destek bağlantısı gösterilir; bu ek Apple hesabı adımı uygulamadaki hesabın ve verilerin silinmesini geciktirmez. Teknik misafir profili bulunan kullanıcılar için aynı alandaki <b>AI işleme onayını geri çek ve misafir verilerimi sil</b> eylemi teknik profili, analiz sayacını, Adapty profilini ve cihazdaki verileri siler; gelecekteki fotoğraf analizini durdurur. Daha önce Gemini'ye tek seferlik gönderilmiş fotoğrafı kendi sunucularımızda saklamadığımız için geri çağırılacak bir kopyamız yoktur.</li>
 <li>Aboneliği hesap silmeden önce App Store veya Google Play ayarlarından ayrıca yönetebilir ya da iptal edebilirsin.</li>

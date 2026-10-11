@@ -1,6 +1,10 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Privacy Policy — Face Yoga Garden</title><style>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Privacy Policy — Face Yoga Garden"><link rel="icon" type="image/png" href="../../assets/apple-touch-icon.png"><link rel="apple-touch-icon" href="../../assets/apple-touch-icon.png"><title>Privacy Policy — Face Yoga Garden</title><style>
 body{margin:0;background:#fbf7f0;color:#3a352f;font:16px/1.65 Georgia,'Times New Roman',serif}
-main{max-width:720px;margin:0 auto;padding:48px 22px 80px}
+nav{max-width:720px;margin:0 auto;padding:22px 22px 0;display:flex;gap:16px;flex-wrap:wrap;font:600 14px/1.4 system-ui,sans-serif}
+nav a{text-decoration:none}
+nav .brand{display:flex;align-items:center;margin-right:4px}
+nav .brand img{display:block;border-radius:8px}
+main{max-width:720px;margin:0 auto;padding:32px 22px 80px}
 h1{font-size:30px;color:#4a5a40;line-height:1.25}
 h2{font-size:21px;color:#4a5a40;margin-top:36px;border-bottom:1px solid rgba(110,155,110,.25);padding-bottom:6px}
 h3{font-size:17px;color:#527a54;margin-top:24px}
@@ -12,9 +16,11 @@ li{margin:6px 0}
 hr{border:0;border-top:1px solid rgba(110,155,110,.3);margin:32px 0}
 em.note{color:#6b645a;font-size:14px}
 a{color:#527a54}
-</style></head><body><main>
+a:focus-visible{outline:3px solid #d57d54;outline-offset:3px;border-radius:4px}
+@media(max-width:640px){main{padding-top:24px}h1{font-size:26px}table{display:block;overflow-x:auto}}
+</style></head><body><nav aria-label="Legal pages"><a class="brand" href="../../"><img src="../../assets/logo.png" alt="Face Yoga Garden" width="36" height="36"></a><a href="../../">Home</a><a href="./privacy-policy.html">Privacy</a><a href="./terms-of-use.html">Terms</a><a href="../gizlilik-politikasi.html" lang="tr">Türkçe</a></nav><main>
 <h1>Privacy Policy — Face Yoga Garden</h1>
-<p><b>Last updated:</b> 3 September 2026 <b>Effective date:</b> 3 September 2026</p>
+<p><b>Last updated:</b> 11 October 2026 <b>Effective date:</b> 11 October 2026</p>
 <blockquote>This is an English translation of the Turkish original. If the documents differ, the Turkish version of the documents prevails.</blockquote>
 <h2>1. Data controller and contact</h2>
 <ul>
@@ -28,6 +34,7 @@ a{color:#527a54}
 <li>Garden, session, streak, companion, and safety data stay on your device by default.</li>
 <li>An account is optional and is created only with <b>Sign in with Apple</b> on iPhone. We do not offer email/password registration or login.</li>
 <li>There are no ads, ad tracking, or data sales.</li>
+<li>Anonymous usage statistics are collected to improve the App; you can turn them off in Settings.</li>
 </ul>
 <h2>3. Data we process</h2>
 <h3>3.1 Camera and facial movement</h3>
@@ -37,10 +44,14 @@ a{color:#527a54}
 <h3>3.3 Apple account and sync</h3>
 <p>If you use Sign in with Apple, we create an account using the stable user identifier Apple provides and either your real or private relay email, depending on your choice. We do not request your full name. When you choose sync, progress, mood entries, personal roadmap, collections, and companion preferences are backed up in Supabase. Safety questions and contraindication responses are not synced and remain on the device.</p>
 <h3>3.4 Optional photo analysis</h3>
-<p>Personal photo analysis can be started by a guest or a user signed in with Apple. With your explicit consent, one selected selfie is sent once to Google Gemini API to create a personal practice plan. While it is prepared, the result stays only in app memory; if Premium is not purchased, it is not shown or retained. We do not store or sync the photo on our own servers, and it is not used for identification or biometric verification. The App works fully without this feature.</p>
+<p>Personal photo analysis is a Premium feature. Only after your explicit consent and your confirmation that you are the person in the photo and 18 or older, one selected selfie is sent once to Google Gemini API to create a personal practice plan; if you have analyzed a photo before, the four region scores of your previous analysis (numbers only, not the photo or any observation text) are sent with the same request to keep results consistent. The model only selects focus areas and notes from a fixed, reviewed catalog; it is instructed not to estimate age, gender, ethnicity, attractiveness, health or any other personal attribute. If no single clear face is found, no analysis is created and your allowance is not used. We do not store or sync the photo on our own servers, and it is not used for identification or biometric verification. The App works fully without this feature.</p>
 <p>Photo-journal images remain only in the local database on your device and are never uploaded.</p>
 <h3>3.5 Technical records</h3>
 <p>For photo analysis, we retain the technical-guest or Apple-account user identifier and request timestamp to prevent abuse; we do not retain photo content. A device diagnostic log reaches us only if you choose to attach it to a support email.</p>
+<h3>3.6 Anonymous usage statistics</h3>
+<p>To understand which steps are used, the App sends a limited list of events: onboarding step, notification permission result, Premium screen views and purchase steps (plan, whether it is a trial), ritual start/completion (type and duration), garden care, app opens, plan report views, and starting a ritual from the report. The last two events contain no additional properties. Each event includes the app version, interface language, platform, and an identifier randomly generated per installation. We do not send your name, email, Apple/account identifier, companion name, photos, analysis results, safety responses, camera or face data; no person profile is created and no location is derived from your IP address. You can turn these statistics off in <b>Settings → Account and subscription → Data → Anonymous usage statistics</b>; doing so also deletes the random identifier from the device.</p>
+<h3>3.7 Legal and support site</h3>
+<p>This static legal and support site has no form, user account, advertising cookie, or analytics tool operated by us. The hosting infrastructure may technically process standard connection records such as IP address, browser information, and request time to deliver the pages and prevent abuse.</p>
 <h2>4. Purposes and legal bases</h2>
 <table><thead><tr><th>Data</th><th>Purpose</th><th>Basis</th></tr></thead><tbody>
 <tr><td>On-device camera data</td><td>Movement feedback</td><td>Explicit consent / performance of service</td></tr>
@@ -50,17 +61,22 @@ a{color:#527a54}
 <tr><td>Safety responses (device only)</td><td>Closing unsuitable movements or reducing dose</td><td>Explicit consent</td></tr>
 <tr><td>One-off analysis photo</td><td>Creating a personal practice plan</td><td>Explicit consent</td></tr>
 <tr><td>Technical-guest or Apple user identifier and analysis timestamp</td><td>Managing the analysis allowance and preventing abuse</td><td>Performance of service / legitimate interest</td></tr>
+<tr><td>Anonymous usage statistics and random installation identifier</td><td>Understanding where the App is hard to use and improving it</td><td>Legitimate interest (can be turned off in Settings)</td></tr>
+<tr><td>Legal/support site connection records</td><td>Secure page delivery and abuse prevention</td><td>Legitimate interest</td></tr>
 </tbody></table>
 <h2>5. Transfers and service providers</h2>
 <ul>
-<li>Supabase is our data processor for Apple-account sync and technical guest profiles/analysis allowance; the hosting region is EU, Frankfurt.</li>
-<li>Google Gemini API is used only for the photo analysis you explicitly approve. This is an international data transfer.</li>
+<li>Supabase is our data processor for Apple-account sync and technical guest profiles/analysis allowance; the hosting region is Seoul, South Korea (Asia Pacific). This is an international data transfer.</li>
+<li>Google Gemini API is used only for the photo analysis you explicitly approve. This is an international data transfer. We use Gemini under Google's paid-service terms: Google does not use the photo to train or improve its products and keeps request data only for a limited period for abuse monitoring and legal compliance.</li>
 <li>Adapty processes subscription status and, where applicable, the user identifier needed to associate it with an account. It does not receive name, photo, camera data, or advertising identifier.</li>
+<li>PostHog is our analytics provider for anonymous usage statistics; data is hosted in the European Union (Frankfurt, Germany). This is an international data transfer.</li>
+<li>ChatGPT Sites hosting infrastructure serves these static legal and support pages. We do not add analytics or advertising tracking to these pages.</li>
 <li>We do not see or store payment-card information; payments are processed by the App Store or Google Play.</li>
 </ul>
 <h2>6. Retention and deletion</h2>
 <ul>
 <li>Local data remains on your device until you reset it in the App or uninstall the App.</li>
+<li>Anonymous usage statistics are kept for at most 12 months. Because the random identifier is not linked to your account, these events cannot be singled out for you when you delete your account; resetting device data or turning statistics off stops new events from joining the old identifier.</li>
 <li><b>Sign out</b> clears the local garden, safety answers, face calibration, and photo journal so the next person using the device cannot access them; the cloud backup associated with your account is not deleted.</li>
 <li>Synced account data remains while the account is active. The <b>Delete account</b> action in Settings immediately deletes the account, synced progress, analysis counters, the account-linked Adapty profile, and the device photo journal. Users who also want to remove the Sign in with Apple connection are shown <b>iPhone Settings → your name → Sign in with Apple → Face Yoga Garden → Delete</b> and Apple's official support link in the deletion confirmation; this separate Apple Account step does not delay deletion of the App account or its data. For a technical guest profile, <b>Withdraw AI processing consent and delete my guest data</b> deletes that profile, its analysis counter, its Adapty profile, and device data, and stops future photo analysis. We do not retain a copy of a photo previously sent once to Gemini on our servers, so there is no copy for us to recall.</li>
 <li>Deleting an account does not automatically cancel a subscription; you can manage or cancel it separately in App Store or Google Play settings.</li>
